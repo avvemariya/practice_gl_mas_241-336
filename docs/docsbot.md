@@ -39,10 +39,15 @@ my_tg_bot/
 ### Установка зависимостей ###
 
 bash
-npm init -y             # Инициализация проекта  
-npm install axios dotenv node-schedule  # Установка библиотек  
+
+npm init -y # Инициализация проекта  
+
+npm install axios dotenv node-schedule  # Установка библиотек 
+
 Файл .env
+
 env
+
 TELEGRAM_TOKEN=7356261366:AAGxlIQXIoHp98UdaK8VHkkVBluLDu0mRio
 
 ## 3. Код бота и его объяснение ## 
@@ -51,7 +56,9 @@ TELEGRAM_TOKEN=7356261366:AAGxlIQXIoHp98UdaK8VHkkVBluLDu0mRio
 Библиотеки
 
 axios — для HTTP-запросов к API Telegram.
+
 dotenv — загрузка токена из .env.
+
 node-schedule — планировщик напоминаний.
 
 Логика работы
